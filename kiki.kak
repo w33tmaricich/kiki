@@ -57,5 +57,6 @@ map global kiki , ":e %opt{kiki_scratch}<ret>" -docstring 'Open scratchpad.'
 # In progress:
 
 add-highlighter global/ regex ^>[^\n]+ 0:green
-add-highlighter global/ regex \bkiki\b 0:yellow+rb
-add-highlighter global/ regex \b(?<=kiki)[^\n]+ 0:cyan
+add-highlighter global/ regex kiki 0:yellow+rb
+add-highlighter global/ regex \(?<=kiki )[^\n]+ 0:cyan
+# add-highlighter global/ regex ^[\ ]+-[^\n]+ 0:red
