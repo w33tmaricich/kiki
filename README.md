@@ -27,12 +27,11 @@ up more comprehensive documentation.
 1. Execute the current line and print inline.
 2. Execute the current line and print in scratch buffer.
 3. Execute the current line and print in fifo buffer.
-4. Print the contents of a given directory.
-5. Add kiki comments.
-6. Add kiki prefix.
+4. `ls -alh` for the first path on the current line
+5. Create new kiki command on the currentn line.
+6. Add `kiki_prefix` to the beginning of the current line.
+7. Configurable scratchpad for notes and ideas.
+8. Simple syntax hilighting for kiki
 
 ## TODO
 
-1. Implement usage of kiki_prefix.
-2. Implement syntax hilighting for kiki files.
-3. have ls work on a path found anywhere on a line.
