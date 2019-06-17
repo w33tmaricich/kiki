@@ -32,6 +32,7 @@ up more comprehensive documentation.
 6. Add `kiki_prefix` to the beginning of the current line.
 7. Configurable scratchpad for notes and ideas.
 8. Simple syntax hilighting for kiki
+9. Edit files using uri on current line
 
 ## TODO
 
