@@ -1,0 +1,7 @@
+> This is how you create a heading.
+
+To run a command inline, simply prefix the command with `kiki_prefix` and
+press `i`
+
+kiki pwd
+/home/amaricich/code/personal/kiki
