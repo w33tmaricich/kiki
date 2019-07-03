@@ -73,6 +73,6 @@ map global kiki , ":e %opt{kiki_scratch}<ret>" -docstring 'Open scratchpad.'
 # map global kiki t ":kiki-topic<ret>" -docstring 'Open a topic file with a given name.'
 
 add-highlighter global/ regex ^>[^\n]+ 0:green
-add-highlighter global/ regex kiki 0:yellow+rb
+add-highlighter global/ regex "%opt{kiki_prefix}" 0:default+rb
 add-highlighter global/ regex \(?<=kiki )[^\n]+ 0:cyan
 # add-highlighter global/ regex ^[\ ]+-[^\n]+ 0:red
