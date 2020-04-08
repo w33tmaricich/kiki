@@ -25,9 +25,9 @@ for getting things done.
  - Full file system navigation through a tree like structure.
 
 ## Installing the plugin:
-To install the plugin, run this command in your terminal:
+To install the plugin, link the file to kakoune's autoload directory:
 ```
-$ ln -s /home/user/path/to/kiki.kak /home/user/.local/share/kak/rc/extra
+$ ln -s /home/user/path/to/kiki.kak /usr/local/share/kak/autoload/
 ```
 
 Once a symlink has been created, I suggest you bind the `kiki` usermode to
